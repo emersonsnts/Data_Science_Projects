@@ -163,9 +163,7 @@ plt.axvline(x=77.8)
 plt.ylim(0,5000)
 plt.show()
 
-print(copq(77))
-print(total_costs(77))
-print(copq_value+coq_value)
+
 plt.bar('Current Scenario (60% QUALITY)', sum(value_fe)+sum(value_fi), color=paleta[3])
 plt.bar('Current Scenario (60% QUALITY)', sum(value_cp)+sum(value_ca), bottom=sum(value_fe)+sum(value_fi), color=paleta[2])
 plt.bar('Projected Scenario (77% QUALITY)', copq(77)*1000, color=paleta[3])
